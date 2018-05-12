@@ -71,7 +71,6 @@ describe("About Functions", function() {
 
     function returnAllArgs() {
       var argsArray = [];
-      console.log('>>>>', arguments);
       for (var i = 0; i < arguments.length; i += 1) {
         argsArray.push(arguments[i]);
       }
